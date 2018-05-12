@@ -3,7 +3,7 @@ MAINTAINER keepwn <keepwn@gmail.com>
 
 RUN apk update && \
     apk add git && \
-    git clone https://github.com/keepwn/ngrok-webapi.git /ngrok-webapi && \
+    git clone https://github.com/lizhi/ngrok-webapi.git /ngrok-webapi && \
     apk del --purge git && \
     rm -rf /var/cache/apk/*
 
